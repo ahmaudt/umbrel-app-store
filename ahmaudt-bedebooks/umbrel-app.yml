@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ahmaudt-bedebooks
 category: media
 name: BedeBooks
-version: "0.1.0"
+version: "0.1.1"
 tagline: Audiobook library and playback for your household
 description: >-
   Self-hosted audiobook library with rich metadata, per-person progress and
@@ -23,6 +23,7 @@ defaultUsername: ""
 defaultPassword: ""
 permissions:
   - STORAGE_DOWNLOADS
-releaseNotes: ""
+releaseNotes: >-
+  Fixes BedeBooks failing to start with "Permission denied" when its data folder is owned by root.
 submitter: ahmaudt
 submission: https://github.com/ahmaudt/umbrel-app-store
