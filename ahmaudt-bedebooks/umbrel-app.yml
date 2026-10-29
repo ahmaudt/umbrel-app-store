@@ -2,6 +2,7 @@ manifestVersion: 1
 id: ahmaudt-bedebooks
 category: media
 name: BedeBooks
+icon: https://raw.githubusercontent.com/ahmaudt/umbrel-app-store/main/ahmaudt-bedebooks/icon.svg
 version: "0.1.2"
 tagline: Audiobook library and playback for your household
 description: >-
