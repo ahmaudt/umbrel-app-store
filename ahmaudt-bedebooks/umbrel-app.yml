@@ -3,7 +3,7 @@ id: ahmaudt-bedebooks
 category: media
 name: BedeBooks
 icon: https://raw.githubusercontent.com/ahmaudt/umbrel-app-store/main/ahmaudt-bedebooks/icon.svg
-version: "0.1.2"
+version: "0.1.3"
 tagline: Audiobook library and playback for your household
 description: >-
   Self-hosted audiobook library with rich metadata, per-person progress and
@@ -25,7 +25,8 @@ defaultPassword: ""
 permissions:
   - STORAGE_DOWNLOADS
 releaseNotes: >-
-  Reads chapters, series and Audible IDs from M4B/M4A files again; they were missing because the
-  image lacked ffprobe. For books already in your library, open Admin and click Extract Chapters.
+  Rescanning the library now adds chapters to books that have none, so books added before 0.1.2
+  get their chapters without a trip to Admin. The BedeBooks shield now marks the sign-in and setup
+  screens, the loading screen and home-screen icons.
 submitter: ahmaudt
 submission: https://github.com/ahmaudt/umbrel-app-store
