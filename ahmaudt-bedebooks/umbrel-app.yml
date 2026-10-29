@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: ahmaudt-bedebooks
+category: media
+name: BedeBooks
+version: "0.1.0"
+tagline: Audiobook library and playback for your household
+description: >-
+  Self-hosted audiobook library with rich metadata, per-person progress and
+  playback in the browser, the desktop app, or on DLNA/OpenHome speakers.
+
+
+  Put audiobooks in Files › Downloads › audiobooks. The first account you
+  create becomes the admin.
+developer: ahmaudt
+website: https://github.com/ahmaudt/umbrel-app-store
+dependencies: []
+repo: ""
+support: https://github.com/ahmaudt/umbrel-app-store/issues
+port: 9333
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+permissions:
+  - STORAGE_DOWNLOADS
+releaseNotes: ""
+submitter: ahmaudt
+submission: https://github.com/ahmaudt/umbrel-app-store
