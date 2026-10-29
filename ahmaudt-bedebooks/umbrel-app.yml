@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ahmaudt-bedebooks
 category: media
 name: BedeBooks
-version: "0.1.1"
+version: "0.1.2"
 tagline: Audiobook library and playback for your household
 description: >-
   Self-hosted audiobook library with rich metadata, per-person progress and
@@ -24,6 +24,7 @@ defaultPassword: ""
 permissions:
   - STORAGE_DOWNLOADS
 releaseNotes: >-
-  Fixes BedeBooks failing to start with "Permission denied" when its data folder is owned by root.
+  Reads chapters, series and Audible IDs from M4B/M4A files again; they were missing because the
+  image lacked ffprobe. For books already in your library, open Admin and click Extract Chapters.
 submitter: ahmaudt
 submission: https://github.com/ahmaudt/umbrel-app-store
